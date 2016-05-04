@@ -7,7 +7,7 @@ import os, sys
 
 # This is the VCF file of results passed via clinical filtering script
 input_file = sys.argv[1]
-# The gene files will all  be text, one gene symbol per line
+# The gene files will all be text, one gene symbol per line
 gene_files = sys.argv[2:]
 
 vcf_gene_dict = {}
@@ -25,12 +25,11 @@ with open(input_file, 'r') as handle:
                 else:
                     vcf_gene_dict[gene] = set([(row)])
 
-for file in gene_files:
-    with open(file, 'r') as handle:
-        print '----------{}'.format(file)
+for filename in gene_files:
+    with open(filename, 'r') as handle:
+        print '----------{}'.format(filename)
         for gene in handle:
             gene = gene.rstrip()
             if gene in vcf_gene_dict:
                 for row in vcf_gene_dict[gene]:
                     print row.rstrip()
-
