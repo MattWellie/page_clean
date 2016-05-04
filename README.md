@@ -11,6 +11,7 @@ The entire process can be operated through use of the bash_control script
 * -q/--query : the name of a Bash script which will be written. Might be best to provide a default value here... it's not important
 * -qr : Name of a file to contain the zgrep results.. Again it might be best to have this default to something sensible
 
+
 1. batch_process.py - This is a script to take the 'batch query' results from the IMPC web resource and process them into a single file; genes_of_interest.cPickle
 2. pickle_my_parks.py - This takes the TSV files from the supplementary information section of Analysis of human disease genes in the context of gene essentiality, Park et al., and convert them into something usable. This is a two-(or more)-part fix due to the need to transfer them to and from Gen1 to operate on the VCF files. This script opens each category of the Park data and stores each in a single pickled file. All these files have to be prefixed with "park_"
 3. pickle_to_genelist.py - After pickling the objects, they are much easier to transfer across/are saved for git, so this script can unpack them again. This separates the gene lists into separate lists by category, with each file prefixed with "genelist_"
@@ -19,3 +20,5 @@ The entire process can be operated through use of the bash_control script
 The shell file containing all the grep queries is executed and redirected to a text file for the results
 6. match.py - This script takes the variants from the grep output, matched them up with the variant rows from the clinical filtering, and uses the allele frequencies, chromosomal position, and patient ID to print out a short summary for each patient. Might need reworking, some variants appear to go missing.
 
+Example usage:
+$ bash bash_control.sh -c=pilot_filtered.txt -filter=filteredfilter.txt -q=query.sh -qr=zgrep_results.txt
