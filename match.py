@@ -7,7 +7,6 @@ allele_freq = re.compile(";(?P<AF>[A-Z_35]*?_AF)=(?P<value>0\..*?);")
 filtered_in = sys.argv[1] #'filtered_variant_results.txt'
 details_in = sys.argv[2] #'pilot_out.txt'
 
-
 detail_dict = {}
 
 # Create an index to get at the PP#### values using positions
