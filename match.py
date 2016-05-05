@@ -36,13 +36,15 @@ with open(filtered_in, 'r') as handle:
         
         # Get allele frequencies
         groups = re.findall(allele_freq, line)
-        if len(groups) >= 1:
-            if PP not in allele_freqs: 
-                allele_freqs[PP]={}
-            allele_freqs[PP][chrompos] = {'gene': gene,
+        if PP not in allele_freqs: 
+            allele_freqs[PP]={}
+        allele_freqs[PP][chrompos] = {'gene': gene,
                                           'afs': []}
+        if len(groups) >= 1:
             for group in groups:
                 allele_freqs[PP][chrompos]['afs'].append('{} = {}'.format(group[0], group[1]))
+        else:
+            allele_freqs[PP][chrompos]['afs'].append('No AF data')
 
 with open('allele_freqs.txt', 'w') as handle:
     print >>handle, 'PP IDs, variants, and corresponding allele freqs\n'
