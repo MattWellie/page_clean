@@ -1,4 +1,8 @@
 #!/bin/bash
+# Does this need to be a shell script? Not really.. The whole thing could have been done as a single python or perl program but i fancied trying out something new.
+
+# This will run the whole intersect of variants exported from the clinical filtering process against the genes identified as mouse related, so long as 'genes_of_interest.cPickle' and 'pickled_parks.cPickle' are present (or the appt. options are set to allow it to run from a batch IMPC query in TSV form, and 'park_' prefixed text files
+
 for i in "$@"
     do
     case $i in
@@ -53,10 +57,10 @@ fi
 # Makes the final outputs available to perl or python
 python pickle_to_genelist.py
 
-# At this point you should probably have run the clinical filtering script on an appropriate cohort... The name of that output file should be the argument -filter -> $filterout
+# At this point you should have run the clinical filtering script on an appropriate cohort... The name of that output file should be the argument -filter -> $filterout
 
 # This step scans the clinical filtering output against the lists of gene names
-# This will be a text file delimited by lines of '----------filename.txt' identifying which results correspond to which gene lists
+# This will be a text file delimited by lines of '----------filename.txt' identifying which results correspond to which gene lists. This will later be re-referenced against the park file, so may be redundant
 python python_scan.py $clin genelist_* > $filterout
 
 # Based on the output of the intersection script, this will build queries on the original VCFs
@@ -67,4 +71,5 @@ python query_builder.py  $filterout  $query
 bash $query > $queryresults
 
 # Run a script to pair up all variants passing filter with their allele freqs
-python match.py $queryresults $clin
+python freq_writer.py $queryresults
+rm genelist_*
