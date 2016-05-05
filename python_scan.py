@@ -17,7 +17,10 @@ with open(input_file, 'r') as handle:
     for row in handle:
         if first_line:
             first_line = False
+        elif row == '':
+            continue
         else:
+            print row.rstrip()
             genes = row.split('\t')[5].split(',')
             for gene in genes:
                 if gene in vcf_gene_dict:
