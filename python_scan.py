@@ -9,7 +9,6 @@ import os, sys
 input_file = sys.argv[1]
 # The gene files will all be text, one gene symbol per line
 gene_files = sys.argv[2:]
-
 vcf_gene_dict = {}
 
 with open(input_file, 'r') as handle:
@@ -17,16 +16,19 @@ with open(input_file, 'r') as handle:
     for row in handle:
         if first_line:
             first_line = False
-        elif row == '':
+        # Alternative condition to allow Dup/Del results through
+        #elif row == '':
+        elif row == '' or 'ablation' in row or 'amplification' in row:
             continue
         else:
-            print row.rstrip()
             genes = row.split('\t')[5].split(',')
             for gene in genes:
                 if gene in vcf_gene_dict:
                     vcf_gene_dict[gene].add(row)
                 else:
                     vcf_gene_dict[gene] = set([(row)])
+if '' in vcf_gene_dict.keys(): del vcf_gene_dict['']
+if '.' in vcf_gene_dict.keys(): del vcf_gene_dict['.']
 
 for filename in gene_files:
     with open(filename, 'r') as handle:
