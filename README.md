@@ -18,7 +18,7 @@ The entire process can be operated through use of the bash_control script
 4. python_scan.py - Parses the 'VCF' file exported by the clinical filtering script, to store the contents in a dictionary. The indices of the dict are the genes implicated in each variant, the list under those indexes stores each row with that gene implicated. This is then cross referenced against those gene lists, to print the annotations which correspond to the genes in each file
 5. query_builder.py - Using a template grep search command, this script processes each one of the variants identified from the clinical filtering script and creates a search for the corresponding row in the original VCF file (with the full annotations). These are written to a shell script file
 The shell file containing all the grep queries is executed and redirected to a text file for the results
-6. match.py - This script takes the variants from the grep output, matched them up with the variant rows from the clinical filtering, and uses the allele frequencies, chromosomal position, and patient ID to print out a short summary for each patient. Might need reworking, some variants appear to go missing.
+6. freq_writer.py - This script takes the variants from the grep output, matched them up with the variant rows from the clinical filtering, and uses the allele frequencies, chromosomal position, and patient ID to print out a short summary for each patient. Might need reworking, some variants appear to go missing.
 
 Example usage:
 $ bash bash_control.sh -c=pilot_filtered.txt -filter=filteredfilter.txt -q=query.sh -qr=zgrep_results.txt
