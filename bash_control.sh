@@ -1,6 +1,9 @@
 #!/bin/bash
 # Does this need to be a shell script? Not really.. The whole thing could have been done as a single python or perl program but i fancied trying out something new.
 
+# Example usage (if input files do not need to be regenerated; genes_of_interest and pickled_parks are present)
+# bash bash_control.sh -c=pilot_filtered.txt -filter=filteredfilter.txt -q=query.sh -qr=zgrep_results.txt
+# bash bash_control.sh -c=<name of clinical filtering txt file> -filter=<name for clinfilter-genes of interest intersect> -q=<zgrep query file> -qr=<zgrep query results>
 # This will run the whole intersect of variants exported from the clinical filtering process against the genes identified as mouse related, so long as 'genes_of_interest.cPickle' and 'pickled_parks.cPickle' are present (or the appt. options are set to allow it to run from a batch IMPC query in TSV form, and 'park_' prefixed text files
 
 for i in "$@"
