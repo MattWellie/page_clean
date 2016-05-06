@@ -5,7 +5,7 @@ This is a minimal version of the PAGE_MPO folder, integrating both the Park gene
 The entire process can be operated through use of the bash_control script
 
 * -f/--filein : a .TSV file containing the results of the IMPC batch query (optional)
-* -c/--clinicalfilter : a file containing the output of the clinical filtering script run on an appropriate trio (Jeremy McRae)
+* -c/--clinicalfilter : a file containing the output of the clinical filtering script run on an appropriate trio (https://github.com/jeremymcrae/clinical-filter)
 * -p/--parks : 1 as an argument will condense separate park gene lists (a workaround. Will collect and pickle files named park_*)
 * -filter : The intersection of the genelists with the clinical filtering output
 * -q/--query : the name of a Bash script which will be written. Might be best to provide a default value here... it's not important
@@ -22,3 +22,8 @@ The shell file containing all the grep queries is executed and redirected to a t
 
 Example usage:
 $ bash bash_control.sh -c=pilot_filtered.txt -filter=filteredfilter.txt -q=query.sh -qr=zgrep_results.txt
+
+The input file for this process (the clinical filtering output), is in the following tab-delimited arrangement:
+[proband	alternate_ID	sex	chrom	position	gene	mutation_ID	transcript	consequence	ref/alt_alleles	MAX_MAF	inheritance	trio_genotype	mom_aff	dad_aff	result	pp_dnm	exac_allele_count]
+This script process explicitly uses columns 0, 3, 4, 5 (PPID, chromosome, position, gene name)
+Additional features such as Ref/Alt and allele frequencies are later grabbed from the VCF where appropriate
