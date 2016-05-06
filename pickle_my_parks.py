@@ -1,21 +1,24 @@
 """   
-This script will find files prefixed with 'park_', which contain gene lists from Park 2008   
-The gene lists will then be read into a dictionary, indexed by their file name
+This script will find files prefixed with 'park_', which contain gene lists from Park 2008
+ - These lists were manually copied into text files named in the format 'park_phenotype_association.txt'
+ - The phenotype isolated from the title will be used as a dictionary key for the genes it contains
 
-The dictionary will be pickled as 'pickled_park.cPickle' (not park prefixed to 
-prevent some future errors)
+The dictionary will be pickled as 'pickled_park.cPickle'
 """
 
 import cPickle, os
 
+# List comprehension to identifiy text files of interest
+# Any other text files could be caught if prefixed with park_ to expand the search
 files = [file for file in os.listdir('.') if file.split('_')[0] == 'park']
-
 outdict = {}
 
 for file in files:
     with open(file, 'r') as handle:
+        # Grab the phenotype as a name by removing 'park_' and '.txt'
         phenotype = ('_').join(file.split('.')[0].split('_')[1:])
         print phenotype
+        # Create a set rather than a list in case of non-uniques
         outdict[phenotype] = set()
         for gene in handle:
             gene=gene.rstrip()
