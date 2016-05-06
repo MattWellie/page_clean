@@ -1,4 +1,16 @@
-# Script to build queries based on results from variants passing filters
+"""
+This script builds queries on the original VCF files, based on the varaints picked up by intersection with disease gene lists
+The template query specified up top has been used as the accurate file location as of 06/05/2016
+
+The queries constructed use zgrep (vcf files are gzipped) for the gene name, then piped to a second grep for the variant position 
+As the VCF file is implicitly located based on the PP#### ID, the gene and positional ID are enough to uniquely ID the row
+The return from this is prefixed with the PP# ID and gene name, tab-separated, to prevent the need to re-query the files later
+    (The original process was to obtain these VCF rows, then parse all results which passed the filter to match these back up with PP IDs... dumb)
+This was expected to be easier than parsing each line of each VCF file manually, but can run a little slow doe to file sizes
+
+-- If changes are made to the location of the original VCF files, this template query will need to be changed. It is possible to make something simila
+
+"""
 
 import sys
 
