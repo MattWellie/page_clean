@@ -1,0 +1,2 @@
+proband	alternate_ID	sex	chrom	position	gene	mutation_ID	transcript	consequence	ref/alt_alleles	MAX_MAF	inheritance	trio_genotype	mom_aff	dad_aff	result	pp_dnm	exac_allele_count
+PP0000	alternate_ID	M	1	100000001	A_GENE	NA	Transcript_1|Transcript_2	variant_type_1|variant_type_2,PolyPhen=possibly_damaging(<number>)|.,SIFT=deleterious(0)|.	A/T	0.0001	Monoallelic	1/0/1	1	1	single_varaint	NA	NA
