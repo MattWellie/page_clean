@@ -1,22 +1,38 @@
 """
-This script builds queries on the original VCF files, based on the varaints picked up by intersection with disease gene lists
-The template query specified up top has been used as the accurate file location as of 06/05/2016
-
-The queries constructed use zgrep (vcf files are gzipped) for the gene name, then piped to a second grep for the variant position 
-As the VCF file is implicitly located based on the PP#### ID, the gene and positional ID are enough to uniquely ID the row
-The return from this is prefixed with the PP# ID and gene name, tab-separated, to prevent the need to re-query the files later
-    (The original process was to obtain these VCF rows, then parse all results which passed the filter to match these back up with PP IDs... dumb)
-This was expected to be easier than parsing each line of each VCF file manually, but can run a little slow doe to file sizes
-
--- If changes are made to the location of the original VCF files, this template query will need to be changed. It is possible to make something simila
-
+Imports the variants which pass the initial 'gene of interest' filtering step
+Use these variants (proband, gene, position) to construct zgrep queries
+These queries will be used to find the original VCF entries
+The VCF entries contain annotations of allele frequencies, which are used in final printout
 """
 
 import sys
 
 in_file = sys.argv[1]  
 queries_out = sys.argv[2]
-template = 'echo -n -e "{}\t{}\t"; zgrep {} /lustre/scratch115/realdata/mdt3/projects/pagedata/data_freezes/2015-09-03/PP/{}/{}/{}/vcf/{}.uber_vep_tabix_qc.2015-11-11.vcf.gz | grep {}'
+ped = sys.argv[3]
+template = 'echo -n -e "{}\t{}\t"; zgrep {} {} | grep {}'
+
+""" 
+Can't rely on the template, as each reprocessing of the daya will have a different 
+date, meaning that the single template is a flawed strategy
+
+Solve this by making an dictionary of all the file locations by parsing the PED file
+"""
+
+ped_dict = {}
+with open(ped, 'r') as handle:
+    # Parse the PED file, which is in the format [Trio, Proband, Parent1, Parent2, Sex, Affected, File location]
+    for line in handle:
+        if line == '': pass
+        else:
+            line_list = line.split('\t')
+            assert len(line_list) == 7, exit('Whoa, wrong number of entries in the PED')
+            parent1, parent2 = line_list[2:4]
+            if parent1 != '0' or parent2 != '0':
+                ped_dict[line_list[1].rstrip()] = line_list[6].rstrip() 
+                
+print ped_dict
+
 
 with open(in_file, 'r') as handle:
     with open(queries_out, 'w') as outhandle:
@@ -29,8 +45,9 @@ with open(in_file, 'r') as handle:
                 if list[0] == 'proband': continue
                 else:
                     PP = list[0]
+                    vcf_location = ped_dict[PP]
                     pp1 = PP[2:4]
                     pp2 = PP[4:]
                     pos = list[4]
                     gene = list[5]
-                    print >>outhandle, template.format(PP, gene, gene, pp1, pp2, PP, PP, pos)
+                    print >>outhandle, template.format(PP, gene, gene, vcf_location, pos)
