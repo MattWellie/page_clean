@@ -24,7 +24,12 @@ The shell file containing all the grep queries is executed and redirected to a t
 Example usage:
 $ bash bash_control.sh -c=pilot_filtered.txt -filter=filteredfilter.txt -q=query.sh -qr=zgrep_results.txt -p=df2ped.txt
 
-The input file for this process (the clinical filtering output), is in the following tab-delimited arrangement:
-[proband	alternate_ID	sex	chrom	position	gene	mutation_ID	transcript	consequence	ref/alt_alleles	MAX_MAF	inheritance	trio_genotype	mom_aff	dad_aff	result	pp_dnm	exac_allele_count]
-This script process explicitly uses columns 0, 3, 4, 5 (PPID, chromosome, position, gene name)
+**Things that might be useful to know:
+
+Minimum file set required: clinical filtering output, the PED file used to identify the VCFs for that process, genes_of_interest.cPickle, pickled_parks.cPickle
+the cPickle files can be recreated from the base input, but the first two commands in bash_control are optional
+
+The input from the clinical filtering process is in a tab-delimited arrangement: [proband	alternate_ID	sex	chrom	position	gene	mutation_ID	transcript	consequence	ref/alt_alleles	MAX_MAF	inheritance	trio_genotype	mom_aff	dad_aff	result	pp_dnm	exac_allele_count]
+From this file, this script process explicitly uses columns 0, 3, 4, 5 (PPID, chromosome, position, gene name)
+
 Additional features such as Ref/Alt and allele frequencies are later grabbed from the VCF where appropriate
