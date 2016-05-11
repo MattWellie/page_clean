@@ -1,0 +1,1115 @@
+PP IDs, variants, and corresponding allele freqs
+
+PP0476
+	2: 179393124 G>A - TTN	(Park: lethal)
+		DDD_AF = 0.000138
+		MAX_AF = 0.001
+		PAGE_AF = 0.001543
+		SAS_AF = 0.001
+	2: 179499545 C>T - TTN	(Park: lethal)
+		DDD_AF = 0.000366
+		MAX_AF = 0.0031
+		PAGE_AF = 0.001543
+		SAS_AF = 0.0031
+	2: 179500433 C>A - TTN	(Park: lethal)
+		PAGE_AF = 0.001543
+	7: 100806344 T>G - VGF	(Park: nondisease lethal)
+		No AF data
+
+PP0531
+	15: 33916136 G>A - RYR3	(Park: nondisease nonlethal)
+		AMR_AF = 0.0014
+		DDD_AF = 0.001953
+		ESP_AF = 0.001
+		MAX_AF = 0.001953
+		PAGE_AF = 0.001543
+	15: 34130227 G>C - RYR3	(Park: nondisease nonlethal)
+		MAX_AF = 0.00013224
+		PAGE_AF = 0.001543
+
+PP0473
+	17: 79991373 A>G - RAC3	(Park: nondisease lethal)
+		No AF data
+
+PP0537
+	6: 56472580 A>T - DST	(Park: lethal)
+		PAGE_AF = 0.001543
+	6: 56485496 C>G - DST	(Park: lethal)
+		AMR_AF = 0.0043
+		DDD_AF = 0.006345
+		ESP_AF = 0.00454
+		MAX_AF = 0.00647977
+		PAGE_AF = 0.009259
+	6: 56569113 T>C - DST	(Park: lethal)
+		AMR_AF = 0.0014
+		DDD_AF = 0.002069
+		ESP_AF = 0.00145
+		MAX_AF = 0.002069
+		PAGE_AF = 0.004630
+
+PP0354
+	16: 57937785 G>A - CNGB1	(Park: lethal)
+		PAGE_AF = 0.003086
+	2: 179418492 G>C - TTN	(Park: lethal)
+		DDD_AF = 0.000366
+		MAX_AF = 0.0031
+		PAGE_AF = 0.001543
+		SAS_AF = 0.0031
+	2: 179424742 C>T - TTN	(Park: lethal)
+		DDD_AF = 0.000366
+		MAX_AF = 0.0041
+		PAGE_AF = 0.001543
+		SAS_AF = 0.0041
+	2: 179479067 C>T - TTN	(Park: lethal)
+		DDD_AF = 0.000138
+		MAX_AF = 0.000138
+		PAGE_AF = 0.001543
+	2: 179610350 CT>C - TTN	(Park: lethal)
+		PAGE_AF = 0.001543
+
+PP0470
+	2: 179431774 A>G - TTN	(Park: lethal)
+		DDD_AF = 0.000122
+		EUR_AF = 0.001
+		MAX_AF = 0.001
+		PAGE_AF = 0.003086
+	2: 179606335 A>ATG - TTN	(Park: lethal)
+		PAGE_AF = 0.001543
+
+PP0419
+	1: 39750998 A>C - MACF1	(Park: nondisease lethal)
+		PAGE_AF = 0.001543
+	1: 39783013 G>A - MACF1	(Park: nondisease lethal)
+		PAGE_AF = 0.001543
+	16: 51171424 G>A - SALL1	(Park: lethal)
+		No AF data
+	19: 46457139 TA>T - NOVA2	(Park: nondisease lethal)
+		No AF data
+
+PP0165
+	17: 18152667 G>A - FLII	(Park: nondisease lethal)
+		DDD_AF = 0.000966
+		ESP_AF = 0.00023
+		MAX_AF = 0.005
+		PAGE_AF = 0.001543
+		SAS_AF = 0.001
+	17: 18155814 T>C - FLII	(Park: nondisease lethal)
+		PAGE_AF = 0.001543
+
+PP0342
+	2: 233406191 C>CA - CHRNG	(Park: lethal)
+		DDD_AF = 0.000966
+		ESP_AF = 0.0004
+		MAX_AF = 0.000966
+		PAGE_AF = 0.004630
+	2: 233408374 CCA>C - CHRNG	(Park: lethal)
+		DDD_AF = 0.000138
+		MAX_AF = 0.000138
+		PAGE_AF = 0.001543
+
+PP0144
+	22: 50719544 C>T - PLXNB2	(Park: nondisease lethal)
+		No AF data
+
+PP0297
+	1: 179308680 G>A - SOAT1	(Park: nondisease nonlethal)
+		No AF data
+
+PP0372
+	14: 64498005 C>A - SYNE2	(Park: lethal)
+		PAGE_AF = 0.001543
+	14: 64682978 C>T - SYNE2	(Park: lethal)
+		AMR_AF = 0.0029
+		DDD_AF = 0.003661
+		ESP_AF = 0.00161
+		MAX_AF = 0.00409944
+		PAGE_AF = 0.001543
+		SAS_AF = 0.001
+	16: 89849296 C>A - FANCA	(Park: nonlethal)
+		No AF data
+	16: 89857932 C>G - FANCA	(Park: nonlethal)
+		No AF data
+	3: 53783158 G>A - CACNA1D	(Park: nondisease nonlethal)
+		PAGE_AF = 0.001543
+	3: 53842691 CCTT>C - CACNA1D	(Park: nondisease nonlethal)
+		DDD_AF = 0.007586
+		ESP_AF = 0.00375
+		MAX_AF = 0.007586
+		PAGE_AF = 0.006173
+
+PP0513
+	15: 75981893 G>A - CSPG4	(Park: nondisease nonlethal)
+		DDD_AF = 0.000138
+		MAX_AF = 0.000138
+		PAGE_AF = 0.003086
+	2: 179414177 G>A - TTN	(Park: lethal)
+		AMR_AF = 0.0014
+		DDD_AF = 0.002897
+		ESP_AF = 0.00174
+		MAX_AF = 0.0072
+		PAGE_AF = 0.007716
+		SAS_AF = 0.0072
+	2: 179578034 C>T - TTN	(Park: lethal)
+		DDD_AF = 0.000488
+		MAX_AF = 0.002
+		PAGE_AF = 0.001543
+		SAS_AF = 0.002
+	22: 50887003 G>A - SBF1	(Park: nondisease lethal)
+		No AF data
+
+PP0594
+	17: 38975163 AGCC>A - KRT10	(Park: lethal)
+		DDD_AF = 0.000966
+		MAX_AF = 0.000966
+		PAGE_AF = 0.009259
+	17: 38975166 C>* - KRT10	(Park: lethal)
+		PAGE_AF = 0.009259
+	17: 38975172 C>T - KRT10	(Park: lethal)
+		No AF data
+	19: 36342198 C>G - NPHS1	(Park: lethal)
+		No AF data
+	5: 156916115 G>C - ADAM19	(Park: nondisease lethal)
+		No AF data
+	9: 113312222 T>C - SVEP1
+		No AF data
+	PP0312: SERPINA5 95054087>rs61761873 - TMED7,TMED7-TICAM2,TICAM2
+		DDD_AF = 0.000976
+		ESP_AF = 0.00046
+		MAX_AF = 0.0051
+		PAGE_AF = 0.004630
+		SAS_AF = 0.0051
+
+PP0156
+	14: 65409347 A>G - GPX2	(Park: nondisease lethal)
+		No AF data
+	2: 50758415 G>A - NRXN1	(Park: lethal)
+		No AF data
+	3: 27431499 T>A - SLC4A7	(Park: nondisease nonlethal)
+		No AF data
+	9: 140772443 CG>C - CACNA1B	(Park: nondisease nonlethal)
+		No AF data
+	9: 140772444 G>* - CACNA1B	(Park: nondisease nonlethal)
+		No AF data
+	9: 35078230 G>T - FANCG	(Park: nonlethal)
+		No AF data
+
+PP0210
+	2: 179396782 C>G - TTN	(Park: lethal)
+		AMR_AF = 0.0014
+		DDD_AF = 0.007567
+		ESP_AF = 0.00623
+		MAX_AF = 0.0089
+		PAGE_AF = 0.004630
+		SAS_AF = 0.002
+	2: 179486037 C>A - TTN	(Park: lethal)
+		AMR_AF = 0.0014
+		DDD_AF = 0.007322
+		ESP_AF = 0.0061
+		MAX_AF = 0.008
+		PAGE_AF = 0.004630
+		SAS_AF = 0.002
+	2: 179582913 C>T - TTN	(Park: lethal)
+		DDD_AF = 0.003051
+		ESP_AF = 0.00264
+		MAX_AF = 0.00343824
+		PAGE_AF = 0.003086
+	2: 179645962 C>G - TTN	(Park: lethal)
+		DDD_AF = 0.004393
+		ESP_AF = 0.003
+		MAX_AF = 0.005
+		PAGE_AF = 0.003086
+
+PP0099
+	2: 179478597 C>A - TTN	(Park: lethal)
+		DDD_AF = 0.000488
+		ESP_AF = 0.00057
+		MAX_AF = 0.000661201
+		PAGE_AF = 0.001543
+	2: 179486223 C>T - TTN	(Park: lethal)
+		AMR_AF = 0.0029
+		DDD_AF = 0.007172
+		ESP_AF = 0.00667
+		PAGE_AF = 0.009259
+		SAS_AF = 0.0061
+	2: 179585312 G>A - TTN	(Park: lethal)
+		AMR_AF = 0.0029
+		DDD_AF = 0.006102
+		ESP_AF = 0.00655
+		MAX_AF = 0.008
+		PAGE_AF = 0.006173
+
+PP0174
+	1: 115258748 C>G - NRAS	(Park: lethal)
+		No AF data
+
+PP0318
+	2: 179414177 G>A - TTN	(Park: lethal)
+		AMR_AF = 0.0014
+		DDD_AF = 0.002897
+		ESP_AF = 0.00174
+		MAX_AF = 0.0072
+		PAGE_AF = 0.007716
+		SAS_AF = 0.0072
+	2: 179428960 C>T - TTN	(Park: lethal)
+		DDD_AF = 0.000610
+		ESP_AF = 0.00058
+		MAX_AF = 0.000610
+		PAGE_AF = 0.001543
+	2: 179549707 G>A - TTN	(Park: lethal)
+		DDD_AF = 0.002069
+		ESP_AF = 0.00161
+		MAX_AF = 0.0031
+		PAGE_AF = 0.006173
+		SAS_AF = 0.0031
+	2: 233406191 C>CA - CHRNG	(Park: lethal)
+		DDD_AF = 0.000966
+		ESP_AF = 0.0004
+		MAX_AF = 0.000966
+		PAGE_AF = 0.004630
+
+PP0153
+	2: 179398591 T>C - TTN	(Park: lethal)
+		AFR_AF = 0.0008
+		DDD_AF = 0.001953
+		ESP_AF = 0.00092
+		MAX_AF = 0.004
+		PAGE_AF = 0.001543
+	2: 179610639 T>G - TTN	(Park: lethal)
+		PAGE_AF = 0.001543
+
+PP0576
+	2: 179404550 G>A - TTN	(Park: lethal)
+		AFR_AF = 0.0008
+		DDD_AF = 0.002319
+		ESP_AF = 0.0029
+		MAX_AF = 0.0041
+		PAGE_AF = 0.007716
+		SAS_AF = 0.0041
+	2: 179439511 C>T - TTN	(Park: lethal)
+		DDD_AF = 0.000138
+		EUR_AF = 0.001
+		MAX_AF = 0.001
+		PAGE_AF = 0.001543
+	2: 179567340 G>A - TTN	(Park: lethal)
+		AFR_AF = 0.0008
+		DDD_AF = 0.002319
+		ESP_AF = 0.00299
+		PAGE_AF = 0.007716
+		SAS_AF = 0.0031
+	2: 179632598 C>T - TTN	(Park: lethal)
+		AFR_AF = 0.0008
+		DDD_AF = 0.002929
+		ESP_AF = 0.00323
+		MAX_AF = 0.0051
+		PAGE_AF = 0.007716
+		SAS_AF = 0.0051
+	5: 1268697 C>T - TERT	(Park: nonlethal)
+		DDD_AF = 0.000138
+		EAS_AF = 0.0079
+		MAX_AF = 0.0079
+		PAGE_AF = 0.001543
+	5: 1268700 C>T - TERT	(Park: nonlethal)
+		AMR_AF = 0.0029
+		DDD_AF = 0.001831
+		ESP_AF = 0.00154
+		MAX_AF = 0.0051
+		PAGE_AF = 0.001543
+		SAS_AF = 0.0051
+
+PP0428
+	12: 80182510 C>T - PPP1R12A	(Park: nondisease lethal)
+		MAX_AF = 0.002
+		PAGE_AF = 0.004630
+		SAS_AF = 0.002
+	2: 179411522 G>A - TTN	(Park: lethal)
+		PAGE_AF = 0.001543
+	2: 179467129 A>G - TTN	(Park: lethal)
+		PAGE_AF = 0.001543
+	2: 179605212 C>T - TTN	(Park: lethal)
+		AFR_AF = 0.0008
+		DDD_AF = 0.001342
+		ESP_AF = 0.00098
+		MAX_AF = 0.001342
+		PAGE_AF = 0.003086
+
+PP0333
+	16: 71418250 C>A - CALB2	(Park: nondisease nonlethal)
+		No AF data
+	19: 18967812 G>T - UPF1	(Park: nondisease lethal)
+		No AF data
+	3: 424301 T>C - CHL1	(Park: nonlethal)
+		No AF data
+	7: 38543298 C>A - AMPH	(Park: nondisease lethal)
+		No AF data
+	8: 11566037 TG>T - GATA4	(Park: lethal)
+		No AF data
+
+PP0312
+	12: 120650219 G>C - PXN	(Park: nondisease lethal)
+		PAGE_AF = 0.003086
+	17: 79496095 C>T - FSCN2	(Park: nonlethal)
+		DDD_AF = 0.001931
+		ESP_AF = 0.00032
+		MAX_AF = 0.0041
+		PAGE_AF = 0.006173
+		SAS_AF = 0.0041
+	21: 46895431 G>C - COL18A1	(Park: nonlethal)
+		DDD_AF = 0.000276
+		MAX_AF = 0.0041
+		PAGE_AF = 0.003086
+		SAS_AF = 0.0041
+	2: 179435114 G>A - TTN	(Park: lethal)
+		DDD_AF = 0.001103
+		MAX_AF = 0.0061
+		PAGE_AF = 0.003086
+		SAS_AF = 0.0061
+	2: 179486223 C>T - TTN	(Park: lethal)
+		AMR_AF = 0.0029
+		DDD_AF = 0.007172
+		ESP_AF = 0.00667
+		PAGE_AF = 0.009259
+		SAS_AF = 0.0061
+	4: 106863487 C>T - NPNT	(Park: nondisease nonlethal)
+		DDD_AF = 0.000610
+		MAX_AF = 0.0061
+		PAGE_AF = 0.003086
+		SAS_AF = 0.0061
+	7: 101943869 CCCCGGTCCCAGT>C - SH2B2	(Park: nondisease nonlethal)
+		DDD_AF = 0.000138
+		MAX_AF = 0.0041
+		PAGE_AF = 0.001543
+		SAS_AF = 0.0041
+	7: 101943876 C>* - SH2B2	(Park: nondisease nonlethal)
+		PAGE_AF = 0.001543
+	7: 101960960 C>T - SH2B2	(Park: nondisease nonlethal)
+		DDD_AF = 0.000276
+		MAX_AF = 0.0072
+		PAGE_AF = 0.001543
+		SAS_AF = 0.0072
+
+PP0555
+	11: 102477309 C>T - MMP20	(Park: nonlethal)
+		AFR_AF = 0.0015
+		DDD_AF = 0.003172
+		EAS_AF = 0.001
+		ESP_AF = 0.00208
+		MAX_AF = 0.003172
+		PAGE_AF = 0.003086
+		SAS_AF = 0.001
+	12: 112037182 G>T - ATXN2	(Park: nonlethal)
+		PAGE_AF = 0.004630
+	15: 29346251 G>A - APBA2	(Park: nondisease lethal)
+		AMR_AF = 0.0014
+		DDD_AF = 0.006621
+		ESP_AF = 0.00384
+		MAX_AF = 0.0089
+		PAGE_AF = 0.009259
+		SAS_AF = 0.0041
+	19: 10473048 G>A - TYK2	(Park: lethal)
+		PAGE_AF = 0.001543
+	19: 10479069 G>A - TYK2	(Park: lethal)
+		DDD_AF = 0.000138
+		MAX_AF = 0.000138
+		PAGE_AF = 0.001543
+	9: 137582841 C>T - COL5A1	(Park: lethal)
+		DDD_AF = 0.002069
+		ESP_AF = 0.00131
+		MAX_AF = 0.002069
+		PAGE_AF = 0.004630
+		SAS_AF = 0.001
+
+PP0570
+	19: 1621907 TGAG>T - TCF3	(Park: nondisease lethal)
+		AMR_AF = 0.0014
+		DDD_AF = 0.003034
+		EAS_AF = 0.001
+		ESP_AF = 0.00216
+		MAX_AF = 0.003034
+		PAGE_AF = 0.004630
+	2: 179433643 G>C - TTN	(Park: lethal)
+		DDD_AF = 0.000976
+		ESP_AF = 0.00114
+		MAX_AF = 0.00114
+		PAGE_AF = 0.004630
+	2: 179476841 C>T - TTN	(Park: lethal)
+		DDD_AF = 0.000122
+		MAX_AF = 0.000122
+		PAGE_AF = 0.001543
+
+PP0452
+	2: 179418306 C>T - TTN	(Park: lethal)
+		DDD_AF = 0.001342
+		ESP_AF = 0.00067
+		MAX_AF = 0.001342
+		PAGE_AF = 0.001543
+	2: 179472319 C>T - TTN	(Park: lethal)
+		AFR_AF = 0.0008
+		DDD_AF = 0.002807
+		ESP_AF = 0.00226
+		MAX_AF = 0.003
+		PAGE_AF = 0.003086
+		SAS_AF = 0.001
+	2: 179593503 G>T - TTN	(Park: lethal)
+		DDD_AF = 0.002685
+		EAS_AF = 0.003
+		ESP_AF = 0.00159
+		MAX_AF = 0.005
+		PAGE_AF = 0.004630
+
+PP0187
+	7: 80293737 G>C - CD36	(Park: nonlethal)
+		DDD_AF = 0.000488
+		ESP_AF = 0.00015
+		MAX_AF = 0.000488
+		PAGE_AF = 0.001543
+	7: 80300474 A>G - CD36	(Park: nonlethal)
+		DDD_AF = 0.000414
+		MAX_AF = 0.000414
+		PAGE_AF = 0.001543
+
+PP0087
+	11: 103057046 C>T - DYNC2H1	(Park: nondisease lethal)
+		PAGE_AF = 0.001543
+	11: 103060543 C>T - DYNC2H1	(Park: nondisease lethal)
+		DDD_AF = 0.000122
+		MAX_AF = 0.00013224
+		PAGE_AF = 0.001543
+
+PP0315
+	17: 62022122 A>G - SCN4A
+		PAGE_AF = 0.003086
+	2: 179581845 C>A - TTN	(Park: lethal)
+		DDD_AF = 0.000276
+		MAX_AF = 0.001
+		PAGE_AF = 0.001543
+		SAS_AF = 0.001
+	2: 179590229 A>G - TTN	(Park: lethal)
+		PAGE_AF = 0.001543
+	8: 37823278 AAGCGC>A - ADRB3	(Park: nonlethal)
+		DDD_AF = 0.000244
+		PAGE_AF = 0.003086
+
+PP0393
+	19: 13397467 C>T - CACNA1A	(Park: lethal)
+		PAGE_AF = 0.001543
+	19: 13409852 G>C - CACNA1A	(Park: lethal)
+		PAGE_AF = 0.001543
+
+PP0273
+	1: 245766015 A>G - KIF26B
+		AMR_AF = 0.0029
+		DDD_AF = 0.003172
+		ESP_AF = 0.00207
+		MAX_AF = 0.00370272
+		PAGE_AF = 0.001543
+	1: 245851740 C>T - KIF26B
+		AFR_AF = 0.0008
+		DDD_AF = 0.000414
+		MAX_AF = 0.002
+		PAGE_AF = 0.001543
+		SAS_AF = 0.002
+
+PP0258
+	2: 179499464 A>G - TTN	(Park: lethal)
+		MAX_AF = 0.00013224
+		PAGE_AF = 0.001543
+	2: 179559353 C>T - TTN	(Park: lethal)
+		DDD_AF = 0.002621
+		ESP_AF = 0.00215
+		MAX_AF = 0.00343824
+		PAGE_AF = 0.009259
+	2: 179582760 T>C - TTN	(Park: lethal)
+		DDD_AF = 0.004638
+		ESP_AF = 0.00571
+		MAX_AF = 0.00819889
+		PAGE_AF = 0.007716
+	2: 179598553 T>G - TTN	(Park: lethal)
+		DDD_AF = 0.002069
+		ESP_AF = 0.00164
+		MAX_AF = 0.00290928
+		PAGE_AF = 0.003086
+	2: 179615278 A>G - TTN	(Park: lethal)
+		DDD_AF = 0.002621
+		ESP_AF = 0.00223
+		MAX_AF = 0.00409944
+		PAGE_AF = 0.009259
+
+PP0231
+	2: 179474150 C>T - TTN	(Park: lethal)
+		DDD_AF = 0.000138
+		ESP_AF = 0.00033
+		MAX_AF = 0.00033
+		PAGE_AF = 0.001543
+	2: 179486223 C>T - TTN	(Park: lethal)
+		AMR_AF = 0.0029
+		DDD_AF = 0.007172
+		ESP_AF = 0.00667
+		PAGE_AF = 0.009259
+		SAS_AF = 0.0061
+	2: 179585312 G>A - TTN	(Park: lethal)
+		AMR_AF = 0.0029
+		DDD_AF = 0.006102
+		ESP_AF = 0.00655
+		MAX_AF = 0.008
+		PAGE_AF = 0.006173
+
+PP0090
+	19: 49129341 G>A - SPHK2	(Park: nondisease nonlethal)
+		DDD_AF = 0.001098
+		ESP_AF = 0.00054
+		MAX_AF = 0.001098
+		PAGE_AF = 0.001543
+	19: 49132795 G>C - SPHK2	(Park: nondisease nonlethal)
+		PAGE_AF = 0.001543
+
+PP0497
+	6: 56357740 C>T - DST	(Park: lethal)
+		AFR_AF = 0.0008
+		DDD_AF = 0.000854
+		ESP_AF = 0.00033
+		MAX_AF = 0.000854
+		PAGE_AF = 0.001543
+	6: 56485496 C>G - DST	(Park: lethal)
+		AMR_AF = 0.0043
+		DDD_AF = 0.006345
+		ESP_AF = 0.00454
+		MAX_AF = 0.00647977
+		PAGE_AF = 0.009259
+	7: 128481578 A>C - FLNC	(Park: lethal)
+		AFR_AF = 0.0008
+		DDD_AF = 0.004760
+		ESP_AF = 0.00401
+		MAX_AF = 0.005
+		PAGE_AF = 0.006173
+		SAS_AF = 0.0031
+	7: 128497246 T>A - FLNC	(Park: lethal)
+		DDD_AF = 0.009519
+		ESP_AF = 0.00114
+		MAX_AF = 0.009519
+		PAGE_AF = 0.007716
+
+PP0573
+	15: 56208651 C>G - NEDD4	(Park: nondisease lethal)
+		No AF data
+	2: 179593503 G>T - TTN	(Park: lethal)
+		DDD_AF = 0.002685
+		EAS_AF = 0.003
+		ESP_AF = 0.00159
+		MAX_AF = 0.005
+		PAGE_AF = 0.004630
+	2: 179597242 C>A - TTN	(Park: lethal)
+		AMR_AF = 0.0014
+		DDD_AF = 0.000552
+		ESP_AF = 0.00092
+		MAX_AF = 0.0014
+		PAGE_AF = 0.001543
+
+PP0425
+	16: 58201600 C>T - CSNK2A2	(Park: nondisease nonlethal)
+		No AF data
+	3: 62254810 G>A - PTPRG	(Park: nondisease nonlethal)
+		DDD_AF = 0.000138
+		MAX_AF = 0.000138
+		PAGE_AF = 0.001543
+	3: 62263311 A>G - PTPRG	(Park: nondisease nonlethal)
+		DDD_AF = 0.001220
+		ESP_AF = 0.00046
+		MAX_AF = 0.001220
+		PAGE_AF = 0.001543
+	3: 62268528 A>G - PTPRG	(Park: nondisease nonlethal)
+		DDD_AF = 0.000610
+		ESP_AF = 0.00015
+		MAX_AF = 0.001
+		PAGE_AF = 0.001543
+
+PP0357
+	3: 129279207 G>A - PLXND1	(Park: nondisease lethal)
+		No AF data
+
+PP0336
+	2: 179424425 T>C - TTN	(Park: lethal)
+		AFR_AF = 0.0038
+		ESP_AF = 0.00056
+		MAX_AF = 0.0038
+		PAGE_AF = 0.001543
+	2: 179518979 A>G - TTN	(Park: lethal)
+		DDD_AF = 0.000854
+		PAGE_AF = 0.001543
+
+PP0528
+	2: 160604781 G>A - MARCH7	(Park: nondisease nonlethal)
+		DDD_AF = 0.001953
+		ESP_AF = 0.00085
+		MAX_AF = 0.001953
+		PAGE_AF = 0.004630
+	2: 160605246 C>G - MARCH7	(Park: nondisease nonlethal)
+		DDD_AF = 0.000122
+		MAX_AF = 0.000122
+		PAGE_AF = 0.001543
+
+PP0546
+	6: 160553317 G>A - SLC22A1	(Park: nonlethal)
+		MAX_AF = 0.00013224
+		PAGE_AF = 0.001543
+	6: 160560864 G>C - SLC22A1	(Park: nonlethal)
+		DDD_AF = 0.000552
+		MAX_AF = 0.002
+		PAGE_AF = 0.001543
+		SAS_AF = 0.002
+
+PP0390
+	2: 179397097 G>A - TTN	(Park: lethal)
+		DDD_AF = 0.000122
+		MAX_AF = 0.000122
+		PAGE_AF = 0.001543
+	2: 179400061 G>A - TTN	(Park: lethal)
+		DDD_AF = 0.000244
+		MAX_AF = 0.00026448
+		PAGE_AF = 0.001543
+
+PP0291
+	11: 1090912 CACCATCACCCTCCCCACCACCCCCACCACCTTCACCACT>C - MUC2	(Park: nonlethal)
+		PAGE_AF = 0.001543
+	11: 1090923 T>* - MUC2	(Park: nonlethal)
+		PAGE_AF = 0.001543
+	11: 1090933 C>* - MUC2	(Park: nonlethal)
+		PAGE_AF = 0.001543
+	11: 1097784 G>A - MUC2	(Park: nonlethal)
+		DDD_AF = 0.000276
+		ESP_AF = 0.00039
+		MAX_AF = 0.00039
+		PAGE_AF = 0.001543
+	15: 35084633 G>A - ACTC1	(Park: lethal)
+		No AF data
+
+PP0300
+	12: 121434140 T>C - HNF1A	(Park: nondisease lethal)
+		No AF data
+
+PP0327
+	10: 61834418 A>G - ANK3	(Park: nondisease lethal)
+		No AF data
+	3: 10401603 T>C - ATP2B2	(Park: nonlethal)
+		No AF data
+
+PP0186
+	2: 179419452 A>G - TTN	(Park: lethal)
+		PAGE_AF = 0.001543
+	2: 179441295 T>C - TTN	(Park: lethal)
+		AMR_AF = 0.0086
+		DDD_AF = 0.007933
+		ESP_AF = 0.00659
+		MAX_AF = 0.0086
+		PAGE_AF = 0.004630
+		SAS_AF = 0.0031
+	2: 179482089 C>T - TTN	(Park: lethal)
+		AFR_AF = 0.0008
+		DDD_AF = 0.007567
+		ESP_AF = 0.00656
+		MAX_AF = 0.0086
+		PAGE_AF = 0.004630
+		SAS_AF = 0.002
+	2: 179545815 C>T - TTN	(Park: lethal)
+		DDD_AF = 0.000138
+		MAX_AF = 0.001
+		PAGE_AF = 0.001543
+		SAS_AF = 0.001
+
+PP0185
+	2: 179464457 T>C - TTN	(Park: lethal)
+		MAX_AF = 0.00013224
+		PAGE_AF = 0.001543
+	2: 179584104 C>G - TTN	(Park: lethal)
+		DDD_AF = 0.000244
+		MAX_AF = 0.000244
+		PAGE_AF = 0.001543
+
+PP0500
+	21: 46310077 C>G - ITGB2	(Park: lethal)
+		PAGE_AF = 0.001543
+	21: 46326999 C>T - ITGB2	(Park: lethal)
+		DDD_AF = 0.000366
+		MAX_AF = 0.000366
+		PAGE_AF = 0.001543
+
+PP0183
+	10: 35495907 G>C - CREM	(Park: nondisease nonlethal)
+		No AF data
+	12: 48258905 T>C - VDR	(Park: lethal)
+		No AF data
+	13: 111917869 AGGT>A - ARHGEF7
+		No AF data
+	18: 47810764 T>C - CXXC1	(Park: nondisease lethal)
+		No AF data
+	22: 51065764 G>A - ARSA	(Park: nonlethal)
+		No AF data
+
+PP0181
+	4: 169847387 A>G - PALLD	(Park: lethal)
+		No AF data
+
+PP0540
+	10: 123243268 T>C - FGFR2	(Park: lethal)
+		No AF data
+	10: 94449816 C>CA - HHEX	(Park: lethal)
+		No AF data
+	12: 58144466 C>G - CDK4	(Park: lethal)
+		No AF data
+	16: 75665702 G>A - KARS
+		No AF data
+	17: 3445897 G>A - TRPV3	(Park: nondisease nonlethal)
+		No AF data
+	19: 16799057 CACG>C - TMEM38A	(Park: nondisease lethal)
+		AMR_AF = 0.0043
+		DDD_AF = 0.009885
+		ESP_AF = 0.00982
+		MAX_AF = 0.009885
+		PAGE_AF = 0.006173
+	2: 21230271 C>T - APOB	(Park: lethal)
+		No AF data
+	22: 50900661 C>T - SBF1	(Park: nondisease lethal)
+		No AF data
+	2: 73659380 C>T - ALMS1	(Park: nonlethal)
+		No AF data
+	6: 170871013 A>ACAGCAGCAG - TBP	(Park: lethal)
+		DDD_AF = 0.001587
+		MAX_AF = 0.001587
+
+PP0285
+	17: 41243509 T>C - BRCA1	(Park: lethal)
+		AMR_AF = 0.0029
+		DDD_AF = 0.009275
+		ESP_AF = 0.00484
+		MAX_AF = 0.009275
+		PAGE_AF = 0.009259
+	17: 41245233 A>G - BRCA1	(Park: lethal)
+		DDD_AF = 0.000690
+		ESP_AF = 0.00015
+		MAX_AF = 0.000690
+		PAGE_AF = 0.003086
+
+PP0360
+	17: 62026805 C>A - SCN4A
+		No AF data
+	18: 7008517 A>T - LAMA1	(Park: nondisease lethal)
+		PAGE_AF = 0.001543
+	18: 7032153 C>T - LAMA1	(Park: nondisease lethal)
+		DDD_AF = 0.003539
+		EAS_AF = 0.001
+		ESP_AF = 0.00246
+		MAX_AF = 0.005
+		PAGE_AF = 0.003086
+	4: 81967675 C>T - BMP3	(Park: nondisease nonlethal)
+		No AF data
+
+PP0507
+	10: 15614323 C>T - ITGA8	(Park: nondisease lethal)
+		DDD_AF = 0.000414
+		MAX_AF = 0.000414
+		PAGE_AF = 0.001543
+	10: 15655740 G>A - ITGA8	(Park: nondisease lethal)
+		PAGE_AF = 0.001543
+
+PP0549
+	1: 169677918 A>G - SELL	(Park: nonlethal)
+		No AF data
+	9: 125145926 G>A - PTGS1	(Park: lethal)
+		No AF data
+
+PP0184
+	15: 96877607 T>C - NR2F2	(Park: nondisease lethal)
+		No AF data
+
+PP0204
+	2: 179482763 C>T - TTN	(Park: lethal)
+		AMR_AF = 0.0043
+		DDD_AF = 0.003173
+		ESP_AF = 0.00344
+		MAX_AF = 0.0043
+		PAGE_AF = 0.003086
+		SAS_AF = 0.002
+	2: 179594107 G>C - TTN	(Park: lethal)
+		AMR_AF = 0.0014
+		DDD_AF = 0.003051
+		ESP_AF = 0.00338
+		MAX_AF = 0.00338
+		PAGE_AF = 0.003086
+		SAS_AF = 0.001
+	2: 179645962 C>G - TTN	(Park: lethal)
+		DDD_AF = 0.004393
+		ESP_AF = 0.003
+		MAX_AF = 0.005
+		PAGE_AF = 0.003086
+
+PP0582
+	15: 68619101 C>T - ITGA11	(Park: lethal)
+		No AF data
+	9: 95179071 G>A - OMD	(Park: nondisease nonlethal)
+		AFR_AF = 0.0015
+		DDD_AF = 0.003539
+		ESP_AF = 0.00285
+		MAX_AF = 0.006
+		PAGE_AF = 0.009259
+	9: 95179747 C>G - OMD	(Park: nondisease nonlethal)
+		PAGE_AF = 0.001543
+
+PP0126
+	7: 17375352 C>T - AHR	(Park: nondisease lethal)
+		PAGE_AF = 0.001543
+	7: 17378731 C>T - AHR	(Park: nondisease lethal)
+		DDD_AF = 0.000138
+		MAX_AF = 0.000138
+		PAGE_AF = 0.001543
+
+PP0207
+	2: 179455208 G>T - TTN	(Park: lethal)
+		DDD_AF = 0.000138
+		MAX_AF = 0.000138
+		PAGE_AF = 0.001543
+	2: 179639041 C>T - TTN	(Park: lethal)
+		PAGE_AF = 0.001543
+	6: 143095041 T>C - HIVEP2	(Park: nondisease nonlethal)
+		No AF data
+
+PP0147
+	3: 51669688 AG>A - RAD54L2	(Park: nondisease lethal)
+		No AF data
+
+17
+	rs11078458: T 1334320>PASS - 3445901
+		AFR_AF = 0.2731
+		DDD_AF = 0.606621
+		EAS_AF = 0.746
+		ESP_AF = 0.51469
+		MAX_AF = 0.746
+		PAGE_AF = 0.618827
+		SAS_AF = 0.6922
+
+PP0585
+	9: 35792899 G>C - NPR2	(Park: lethal)
+		No AF data
+
+PP0449
+	2: 179483201 G>A - TTN	(Park: lethal)
+		PAGE_AF = 0.001543
+	2: 179582760 T>C - TTN	(Park: lethal)
+		DDD_AF = 0.004638
+		ESP_AF = 0.00571
+		MAX_AF = 0.00819889
+		PAGE_AF = 0.007716
+	9: 100617299 G>A - FOXE1	(Park: lethal)
+		No AF data
+
+PP0461
+	4: 119953142 G>T - SYNPO2
+		DDD_AF = 0.000276
+		ESP_AF = 0.00015
+		MAX_AF = 0.000276
+		PAGE_AF = 0.001543
+	4: 119978770 T>C - SYNPO2
+		PAGE_AF = 0.001543
+
+PP0567
+	12: 110764261 A>G - ATP2A2	(Park: lethal)
+		No AF data
+
+PP0306
+	15: 91450541 T>C - MAN2A2	(Park: nondisease nonlethal)
+		No AF data
+
+PP0561
+	1: 236195734 G>C - NID1	(Park: nondisease nonlethal)
+		PAGE_AF = 0.001543
+	1: 236201523 G>A - NID1	(Park: nondisease nonlethal)
+		DDD_AF = 0.000610
+		ESP_AF = 0.00031
+		MAX_AF = 0.0031
+		PAGE_AF = 0.001543
+		SAS_AF = 0.0031
+	1: 236212186 T>G - NID1	(Park: nondisease nonlethal)
+		PAGE_AF = 0.001543
+
+PP0443
+	2: 179407159 C>A - TTN	(Park: lethal)
+		PAGE_AF = 0.001543
+	2: 179477175 C>T - TTN	(Park: lethal)
+		MAX_AF = 0.001
+		PAGE_AF = 0.001543
+		SAS_AF = 0.001
+
+PP0303
+	2: 175614789 T>C - CHRNA1
+		PAGE_AF = 0.001543
+	2: 175619069 G>T - CHRNA1
+		PAGE_AF = 0.001543
+
+11
+	rs658804: A 857242>PASS - 103057048
+		AFR_AF = 0.4985
+		DDD_AF = 0.607448
+		EAS_AF = 0.5526
+		ESP_AF = 0.59755
+		MAX_AF = 0.67
+		PAGE_AF = 0.581790
+		SAS_AF = 0.5675
+
+PP0267
+	1: 156815568 C>A - INSRR	(Park: nondisease lethal)
+		DDD_AF = 0.000244
+		MAX_AF = 0.0072
+		PAGE_AF = 0.003086
+		SAS_AF = 0.0072
+	1: 15894604 T>C - DNAJC16
+		No AF data
+	13: 32914723 G>C - BRCA2	(Park: lethal)
+		DDD_AF = 0.000122
+		MAX_AF = 0.001
+		PAGE_AF = 0.003086
+		SAS_AF = 0.001
+	1: 36216977 TTCC>T - CLSPN
+		DDD_AF = 0.000366
+		ESP_AF = 0.00479
+		MAX_AF = 0.00479
+		PAGE_AF = 0.003086
+	1: 39775990 A>C - MACF1	(Park: nondisease lethal)
+		PAGE_AF = 0.003086
+	1: 41303392 G>A - KCNQ4	(Park: nonlethal)
+		PAGE_AF = 0.003086
+	14: 70515585 G>A - SLC8A3	(Park: nondisease nonlethal)
+		DDD_AF = 0.000122
+		MAX_AF = 0.000122
+		PAGE_AF = 0.003086
+	7: 100849656 G>T - PLOD3	(Park: nondisease lethal)
+		PAGE_AF = 0.003086
+	7: 83634752 T>C - SEMA3A	(Park: nondisease lethal)
+		DDD_AF = 0.000122
+		PAGE_AF = 0.003086
+
+PP0488
+	2: 207310170 A>G - ADAM23	(Park: nondisease lethal)
+		AMR_AF = 0.0072
+		DDD_AF = 0.003539
+		ESP_AF = 0.00254
+		MAX_AF = 0.0072
+		PAGE_AF = 0.006173
+		SAS_AF = 0.001
+
+PP0243
+	2: 179396051 T>A - TTN	(Park: lethal)
+		PAGE_AF = 0.001543
+	2: 179578891 T>C - TTN	(Park: lethal)
+		DDD_AF = 0.002075
+		ESP_AF = 0.00068
+		MAX_AF = 0.002075
+		PAGE_AF = 0.001543
+	2: 179590708 C>T - TTN	(Park: lethal)
+		DDD_AF = 0.002807
+		ESP_AF = 0.001
+		MAX_AF = 0.002807
+		PAGE_AF = 0.001543
+
+PP0381
+	2: 38302107 T>C - CYP1B1	(Park: nonlethal)
+		No AF data
+
+PP0120
+	2: 179436310 T>C - TTN	(Park: lethal)
+		DDD_AF = 0.000276
+		MAX_AF = 0.0072
+		PAGE_AF = 0.001543
+		SAS_AF = 0.0072
+	2: 179579952 G>A - TTN	(Park: lethal)
+		MAX_AF = 0.002
+		PAGE_AF = 0.001543
+		SAS_AF = 0.002
+
+PP0123
+	2: 179411381 C>T - TTN	(Park: lethal)
+		DDD_AF = 0.000122
+		MAX_AF = 0.000122
+		PAGE_AF = 0.001543
+	2: 179638996 T>C - TTN	(Park: lethal)
+		PAGE_AF = 0.001543
+
+19
+	.: G 16523.50>LOW_VQSLOD - 16799060
+		PAGE_AF = 0.006173
+
+PP0249
+	2: 179404550 G>A - TTN	(Park: lethal)
+		AFR_AF = 0.0008
+		DDD_AF = 0.002319
+		ESP_AF = 0.0029
+		MAX_AF = 0.0041
+		PAGE_AF = 0.007716
+		SAS_AF = 0.0041
+	2: 179484561 C>T - TTN	(Park: lethal)
+		PAGE_AF = 0.001543
+	2: 179567340 G>A - TTN	(Park: lethal)
+		AFR_AF = 0.0008
+		DDD_AF = 0.002319
+		ESP_AF = 0.00299
+		PAGE_AF = 0.007716
+		SAS_AF = 0.0031
+	2: 179632598 C>T - TTN	(Park: lethal)
+		AFR_AF = 0.0008
+		DDD_AF = 0.002929
+		ESP_AF = 0.00323
+		MAX_AF = 0.0051
+		PAGE_AF = 0.007716
+		SAS_AF = 0.0051
+
+PP0162
+	4: 3494939 G>A - DOK7	(Park: lethal)
+		DDD_AF = 0.000244
+		EAS_AF = 0.001
+		MAX_AF = 0.001
+		PAGE_AF = 0.001543
+	4: 3495220 C>A - DOK7	(Park: lethal)
+		AMR_AF = 0.0029
+		DDD_AF = 0.001103
+		EUR_AF = 0.001
+		MAX_AF = 0.0041
+		PAGE_AF = 0.001543
+		SAS_AF = 0.0041
+	6: 51524453 T>G - PKHD1	(Park: nonlethal)
+		DDD_AF = 0.000138
+		MAX_AF = 0.001
+		PAGE_AF = 0.001543
+		SAS_AF = 0.001
+	6: 51798959 G>A - PKHD1	(Park: nonlethal)
+		PAGE_AF = 0.003086
+
+PP0129
+	2: 179463562 A>T - TTN	(Park: lethal)
+		DDD_AF = 0.000276
+		MAX_AF = 0.000276
+		PAGE_AF = 0.001543
+	2: 179587610 G>A - TTN	(Park: lethal)
+		DDD_AF = 0.000138
+		MAX_AF = 0.000138
+		PAGE_AF = 0.001543
+
+PP0491
+	10: 96022371 C>T - PLCE1	(Park: nonlethal)
+		No AF data
+
+PP0279
+	1: 17250945 G>T - CROCC	(Park: nondisease nonlethal)
+		PAGE_AF = 0.001543
+	1: 17257090 G>A - CROCC	(Park: nondisease nonlethal)
+		DDD_AF = 0.000138
+		MAX_AF = 0.00026448
+		PAGE_AF = 0.001543
+
+PP0345
+	6: 56485496 C>G - DST	(Park: lethal)
+		AMR_AF = 0.0043
+		DDD_AF = 0.006345
+		ESP_AF = 0.00454
+		MAX_AF = 0.00647977
+		PAGE_AF = 0.009259
+	6: 56510967 T>C - DST	(Park: lethal)
+		DDD_AF = 0.000276
+		MAX_AF = 0.000276
+		PAGE_AF = 0.001543
