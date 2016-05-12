@@ -5,7 +5,7 @@ This is a minimal version of the PAGE_MPO folder, integrating both the Park gene
 The entire process can be operated through use of the bash_control script
 
 * -f/--filein : a .TSV file containing the results of the IMPC batch query (optional)
-* -c/--clinicalfilter : a file containing the output of the clinical filtering script run on an appropriate trio (https://github.com/jeremymcrae/clinical-filter)
+* -c/--clinicalfilter : a file containing the output of the clinical filtering script run on an appropriate trio, or set of trios (https://github.com/jeremymcrae/clinical-filter)
 * -p/--parks : 1 as an argument will condense separate park gene lists (a workaround. Will collect and pickle files named park_*)
 * -filter : The intersection of the genelists with the clinical filtering output
 * -q/--query : the name of a Bash script which will be written. Might be best to provide a default value here... it's not important
@@ -18,7 +18,7 @@ The entire process can be operated through use of the bash_control script
 3. pickle_to_genelist.py - After pickling the objects, they are much easier to transfer across/are saved for git, so this script can unpack them again. This separates the gene lists into separate lists by category, with each file prefixed with "genelist_"
 4. python_scan.py - Parses the 'VCF' file exported by the clinical filtering script, to store the contents in a dictionary. The indices of the dict are the genes implicated in each variant, the list under those indexes stores each row with that gene implicated. This is then cross referenced against those gene lists, to print the annotations which correspond to the genes in each file
 5. query_builder.py - Parses the PED file used to run the clinical filtering process, identifies all probands and stores their VCF file locations. This script then processes each one of the variants identified from the clinical filtering script and creates a zgrep search command for the corresponding row in the original VCF file (with the full annotations). These are written to a shell script file.
-The shell file containing all the grep queries is executed and redirected to a text file for the results
+The shell file containing all the grep queries is executed and redirected to a text file for the results. Parsing the PED file at this point would also allow for the identification of probands which are sequenced as part of an incomplete trio.
 6. freq_writer.py - This script takes the variants from the grep output, matched them up with the variant rows from the clinical filtering, and uses the allele frequencies, chromosomal position, and patient ID to print out a short summary for each patient. Might need reworking, some variants appear to go missing.
 
 Example usage:
