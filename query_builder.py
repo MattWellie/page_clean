@@ -31,9 +31,6 @@ with open(ped, 'r') as handle:
             if parent1 != '0' or parent2 != '0':
                 ped_dict[line_list[1].rstrip()] = line_list[6].rstrip() 
                 
-print ped_dict
-
-
 with open(in_file, 'r') as handle:
     with open(queries_out, 'w') as outhandle:
         for line in handle:
