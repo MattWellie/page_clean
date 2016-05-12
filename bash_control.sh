@@ -51,7 +51,7 @@ done
 
 
 # If the clinical filtering script needs to be run
-if [ "$runclin" = "1" ]
+if [ "$runfilter" = "1" ]
 then
     python /software/page/clinical-filter/clinical-filter-0.3.6/clinical_filter.py --ped $ped --output $clin
 fi
