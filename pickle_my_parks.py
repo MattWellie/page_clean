@@ -1,5 +1,6 @@
 """   
-This script will find files prefixed with 'park_', which contain gene lists from Park 2008
+This script will find files prefixed with 'park_', which contain gene lists from Park 2008 (Analysis of human disease genes in the context of gene essentiality)
+http://dx.doi.org/10.1016/j.ygeno.2008.08.001
  - These lists were manually copied into text files named in the format 'park_phenotype_association.txt'
  - The phenotype isolated from the title will be used as a dictionary key for the genes it contains
 
