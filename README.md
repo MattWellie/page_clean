@@ -1,6 +1,6 @@
 # page_clean
 
-This is a minimal version of the PAGE_MPO folder, integrating both the Park gene list and the lists obtained through querying the IMPC database
+This is a minimal version of the PAGE_MPO folder, integrating both the Park gene list (http://dx.doi.org/10.1016/j.ygeno.2008.08.001) and the lists obtained through querying the IMPC database
 
 The entire process can be operated through use of the bash_control script
 
