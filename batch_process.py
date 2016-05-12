@@ -1,15 +1,32 @@
-# Script to read and split the results from the MPO results files
-# This takes a TSV file and opens it as a dictionary, continuing to process and export the results
+"""
+Script to read and split the results from the IMPC batch results files
+This takes a TSV file and opens it as a dictionary, continuing to process and export the results
+The batch query function of the IMPC website allows for results to be exported in TSV or xlsx
+
+The format of this TSV file is expected to be, tab separated:
+<column name> - <contents>
+
+mp_id             - MP:000000, mouse phenotype term
+id_link           - URL, not used
+mp_term           - text description of term
+mp_definition     - more detailed text explanation
+mgi_accession_id  - MGI:0000000(|MGI:000001), not used
+marker_symbol     - Mouse1(|Mouse2), list of mouse genes associated with mp_id
+human_gene_symbol - HUMAN1(|HUMAN2), list of the human orthologues
+
+It is able to run a comparison of the list with DDG2P after parsing, showing overlap etc. This can be used by specifying the 
+-ddg2p flag as any value other than 0 (default). If this is not set the files will be parsed and the output file written, 
+followed by prematurely quitting
+"""
 
 import csv, argparse, cPickle
 
 parser = argparse.ArgumentParser()
 
 parser.add_argument('-filein')
+parser.add_argument('-ddg2p', default=0)
 args = parser.parse_args()
 
-
-#file_in = 'batch_query_no_infertile.tsv'
 ddg2p = 'DDG2P.csv'
 phenotype_col = 'mp_id'
 human_col = 'human_gene_symbol'
@@ -39,6 +56,10 @@ with open(args.filein, 'r') as handle:
 # Dump the gene set to a pickle file
 with open('genes_of_interest.cPickle', 'w') as handle:
     cPickle.dump(all_genes, handle)
+
+# Allow for premature exit if DDG2P overlap is not important
+if args.ddg2p == 0:
+	exit()
 
 # Output counts of the genes processed
 print 'Unique total: {}'.format(len(all_genes))
