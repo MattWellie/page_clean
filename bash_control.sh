@@ -16,6 +16,11 @@ for i in "$@"
         ped="${i#*=}"
         ;;
         
+        # The ped file
+        -r=*|--runclin=*)
+        runfilter="${i#*=}"
+        ;;
+        
         # The file containing the results of the clinical filtering script
         -c=*|--clinicalfilter=*)
         clin="${i#*=}"
@@ -44,6 +49,13 @@ for i in "$@"
     esac
 done
 
+
+# If the clinical filtering script needs to be run
+if [ "$runclin" = "1" ]
+then
+    python /software/page/clinical-filter/clinical-filter-0.3.6/clinical_filter.py --ped $ped --output $clin
+fi
+
 # Run this to check if the file containing the impc batch results is there
 # Default action is ignore this command
 if [ -f "$impc" ]
@@ -56,7 +68,6 @@ if [ "$parks" = "1" ]
 then
     python pickle_my_parks.py
 fi
-
 # To tidy up all that mess... Convert pickles to text lists
 # This can be run whether the previous steps were run or not
 # Makes the final outputs available to perl or python
